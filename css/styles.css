@@ -59,7 +59,7 @@ body {
     display: flex;
     align-items: center;
     margin: 1.5em auto;
-
+    padding: 0 1em;
 
 }
 
@@ -83,6 +83,7 @@ body {
     padding: .2rem;
     box-sizing: border-box;
     height: 122px;
+    
 }
 
 
@@ -95,24 +96,49 @@ body {
 
 .entries__container {
     background-color: white;
+    padding: 0 1em;
+
 }
 
 .entry__container {
     border-bottom: 1px lightcoral solid ;
     display: flex;
-    height: 100px;
-    padding-top: 0,8em;
+    max-height: 200px;
+    padding-top: 1em;
+}
+
+.entry__date {
+    width: 25%;
+}
+
+.entry__date p {
+    font-size: .8em; 
+}
+
+.entry__blog button {
+ cursor: pointer;
+ font-weight: bold;
+ color: indianred;
+ font-size: .8rem;
+ background: transparent;
+ border: none;
+ margin: .8% auto;
 }
 
 .entry__blog h2, button {
     color:indianred;
 }
 
+.entry__date p>span {
+    font-weight: bold;
+    color: indianred;
+    font-size: .8rem;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .footer ul {
