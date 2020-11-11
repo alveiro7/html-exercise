@@ -135,6 +135,12 @@ body {
     font-size: .8rem;
 }
 
+.cat {
+    background-color: white;
+    padding: 0 1em;
+    margin: 10px auto;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
