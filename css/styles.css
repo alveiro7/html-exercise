@@ -46,8 +46,9 @@ body {
     background-color: indianred;
     color: white;
 }
+
 .footer {
-    background-color: hotpink;
+    background-color: #f4f4f4;
     height: 6rem;
     margin-top: auto;
 }
@@ -83,7 +84,6 @@ body {
     padding: .2rem;
     box-sizing: border-box;
     height: 122px;
-    
 }
 
 
@@ -112,17 +112,17 @@ body {
 }
 
 .entry__date p {
-    font-size: .8em; 
+    font-size: .8em;
 }
 
 .entry__blog button {
- cursor: pointer;
- font-weight: bold;
- color: indianred;
- font-size: .8rem;
- background: transparent;
- border: none;
- margin: .8% auto;
+    cursor: pointer;
+    font-weight: bold;
+    color: indianred;
+    font-size: .8rem;
+    background: transparent;
+    border: none;
+    margin: .8% auto;
 }
 
 .entry__blog h2, button {
@@ -137,8 +137,20 @@ body {
 
 .cat {
     background-color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap ;
     padding: 0 1em;
     margin: 10px auto;
+}
+
+.cat figure {
+    flex: 0 0 35%;
+}
+
+.cat aside {
+    flex: 1;
+
 }
 
 .footer {
