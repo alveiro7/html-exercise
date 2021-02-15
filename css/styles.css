@@ -4,11 +4,15 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: #f4f4f4;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Arial', sans-serif;
-    margin: 1em;
+    margin: 1rem;
 
 }
 
@@ -21,11 +25,10 @@ body {
 .header__navbar {
     color:indianred;
     display: flex;
-/*     background-color: #d6d6d6;*/
     border-radius: 5px;
     overflow: hidden;
     font-weight: bold;
-    height: 60px;
+    height: 40%;
 }
 
 .header__navbar ul {
@@ -174,6 +177,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    .header {
+        height: 12rem;
+    }
+    .header__navbar {
+        height: 90%;
+    }
+
     .header__navbar ul {
         flex-direction: column;
     }}
