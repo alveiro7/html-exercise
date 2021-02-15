@@ -1,0 +1,19 @@
+{
+  "name": "reto1",
+  "version": "1.0.0",
+  "description": "El primer ejercicio de HTML CS JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveiro7/html-exercise.git"
+  },
+  "author": "Alveiro Hoyos <alveiro7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alveiro7/html-exercise/issues"
+  },
+  "homepage": "https://github.com/alveiro7/html-exercise#readme"
+}

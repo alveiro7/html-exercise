@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" id="nombre" placeholder="tu nombre">
+        </label>
+        <label for="nacimiento">
+            <span>¿Cuando nacistes?</span>
+            <input type="date" id="nacimiento">
+        </label>
+        <label for="horario">
+            <span>¿En que horario estudias</span>
+            <input type="time" id="horario">
+        </label>
+    </form>
+
+    <form action="">
+        <label for="hora">
+            <span>¿hora?</span>
+            <input type="time" id="hora" name="hora">
+        </label>
+        <label for="semana">
+            <span>¿Semana?</span>
+            <input type="week" id="semana" name="semana">
+        </label>
+        <label for="mes">
+            <span>¿Mes?</span>
+            <input type="month" id="mes" name="mes">
+        </label>
+        <input type="submit" />
+    </form>
+    <form action="">
+        <label for="calendario">
+            <span>¿que fecha necesita?</span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit" />
+    </form>
+
+    <form action="">
+        <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" placeholder="tu nombre" id="nombre" name="nombre" autocomplete="name" required>
+        </label>
+        <label for="correo">
+            <span>¿Cual es tu correo?</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
+        </label>
+        <label for="pais">
+            <span>Where are you from?</span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required>
+        </label>
+        <label for="cp">
+            <span>Zip Code</span>
+            <input type="number" name="cp" id="cp" autocomplete="postal-code" required>
+        </label>
+        <input type="submit" />
+    </form>
+
+    <main>
+        <span>Lista con Select</span>
+        <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standars</option>
+        </select>
+
+        <span>Lista con INPUT buenas practicas</span>
+        <input list="cursos" />
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standars"></option>
+        </datalist>
+    </main>
+<!-- solo para formularios -->
+<input type="submit" value="Nombre" />  <!-- con el atributo value podremos cambiar el texto que se vera en el -->
+
+<!-- lo usaremos para cualquier caso en el que necesitemos un boton -->
+<button type="submit">Qué color te gusta?</button>
+<!-- si quieres usar un button en un formulario debes agregarle el type = "submit" -->
+
+</body>
+</html>
